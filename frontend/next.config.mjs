@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
-  // Reemplaza 'portfolio' con el nombre de tu repositorio
+  // Adjust this to match your GitHub repository name
   basePath: process.env.NODE_ENV === 'production' ? '/portfolio' : '',
   images: {
     unoptimized: true,
