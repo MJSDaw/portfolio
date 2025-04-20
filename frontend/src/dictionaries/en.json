@@ -1,0 +1,49 @@
+{
+  "hero": {
+    "greeting": "Hello, I'm",
+    "role": "Full Stack Web Developer specialized in creating digital experiences."
+  },
+  "navigation": {
+    "viewProjects": "View Projects",
+    "contact": "Contact"
+  },
+  "about": {
+    "title": "About Me",
+    "bio1": "I am a passionate developer with experience in creating modern and responsive web applications. My approach combines attractive design with solid functionality.",
+    "bio2": "With some experience in web development, I have worked on a variety of projects ranging from corporate websites to more complex web applications."
+  },
+  "skills": {
+    "title": "Skills"
+  },
+  "projects": {
+    "title": "My Projects",
+    "project1": {
+      "title": "Project 1",
+      "description": "A modern web application built with React and Next.js."
+    },
+    "project2": {
+      "title": "Project 2",
+      "description": "Content management system with Laravel and MySQL."
+    },
+    "project3": {
+      "title": "Project 3",
+      "description": "E-commerce application with payment processing."
+    },
+    "project4": {
+      "title": "Project 4",
+      "description": "Administrative dashboard with real-time data analysis."
+    },
+    "viewProject": "View project"
+  },
+  "contact": {
+    "title": "Contact",
+    "intro": "Do you have a project in mind? I'm available for freelance work or full-time positions.",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "send": "Send message"
+  },
+  "footer": {
+    "rights": "All rights reserved."
+  }
+}
