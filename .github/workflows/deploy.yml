@@ -21,10 +21,6 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Create root package.json
-        run: |
-          echo '{"name":"portfolio-root","private":true,"workspaces":["frontend"]}' > package.json
-
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
