@@ -5,6 +5,7 @@ import { useLanguage } from "@/context/LanguageContext";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
 import BackToTopButton from "../components/BackToTopButton";
 import Image from "next/image";
+import profilePic from "../../public/me.jpg";  // Import image directly
 
 export default function Home() {
   const { dictionary } = useLanguage();
@@ -69,7 +70,7 @@ export default function Home() {
                 <div className="w-full h-full bg-gray-200 dark:bg-gray-700 flex items-center justify-center">
                   <span className="text-gray-500 dark:text-gray-400">
                     <Image
-                      src="/me.jpg"
+                      src={profilePic}  // Use the imported image variable
                       alt="Moisés Santana"
                       width={300}
                       height={300}
